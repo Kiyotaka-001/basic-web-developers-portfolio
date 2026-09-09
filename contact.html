@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neville Agharese — Contact</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="index.html" class="brand"><span>CLD</span><span>Studio</span></a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-pad">
+      <div class="eyebrow reveal">Contact</div>
+      <h1 class="page-title reveal">Need a logo, brand identity, campaign design, or complete visual system?</h1>
+    </section>
+
+    <section class="contact-layout section-pad">
+      <div class="contact-copy reveal">
+        <h2>Start with the design brief.</h2>
+        <p>Use this page for logo design, brand identity, packaging, social media templates, campaign graphics, print design, pitch decks, or a full visual refresh.</p>
+        <div class="contact-details">
+          <a href="mailto:hello@example.com">hello@example.com</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          Design Project Type
+          <select name="project">
+            <option>Logo Design</option>
+            <option>Campaign Design</option>
+            <option>Brand Identity</option>
+            <option>Packaging Design</option>
+            <option>Pitch Deck / Presentation Design</option>
+          </select>
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="6" placeholder="Tell me about your brand, design needs, timeline, budget, and where the visuals will be used." required></textarea>
+        </label>
+
+        <button type="submit" class="button button-dark">Send Design Enquiry</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><h2>CLD Studio</h2><p>Frontend Development / Interactive Web Experiences</p></div>
+    <div class="footer-links"><a href="cloudverse001@gmail.com">Email</a><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Behance</a></div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
